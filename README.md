@@ -2,7 +2,7 @@
 Here is a code to analyse eeg signals of right/left hand MI tasks using LSTM and 1D CNN. 
 
 ## MI task:
-MI task is an experiment where a subject is aksed to imagine doing something in its head and in this case, the subject is imagining moving right or left hand.
+MI task is an experiment where a subject is asked to imagine doing something in its head and in this case, the subject is imagining moving right or left hand.
 
 ## Dataset used:
 [An online dataset](http://gigadb.org/dataset/100295) containing 52 subjects' eeg signals while they are perfoming MI tasks is used in this project. In this dataset, each subject has around 200 right and 200 left trails of eeg recording. A more detailed discussion of its experiment can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5493744/#bib17) 
