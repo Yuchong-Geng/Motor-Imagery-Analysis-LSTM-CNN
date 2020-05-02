@@ -13,6 +13,12 @@ In this code, performance of LSTM and 1D CNN on analysis of MI tasks is studied.
 ## Results:
 The average accuracy using 1D CNN over all valid subjects is 66.25% (+/- 17.87%). And we have achieved high accuracy (above 80%) on eight subjects with the highest being 87.5%. (This code uses 80/20 split of data for training and testing) 
 
+Here is a model accuracy plot and a model loss plot for one subject:
+
+![Model Accuracy](https://github.com/evanycgeng/Motor-Imagery-Analysis-LSTM-CNN/blob/master/image/model%20accuracy.png)
+
+![Model Loss](https://github.com/evanycgeng/Motor-Imagery-Analysis-LSTM-CNN/blob/master/image/model%20loss.png)
+
 ## A Short Explanation of the Code:
 ### Preprocessing: 
 This code contains a preprocessing section where dataset in .mat format is loaded into the notebook and useful information is extracted from the eeg data object. A detailed documentation of the data structure can be found on the paper mentioned earlier.  
